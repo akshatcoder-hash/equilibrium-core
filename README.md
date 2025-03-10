@@ -66,14 +66,13 @@ fn calculate_fee(&self) -> f64 {
 
 ## Technical Architecture
 
-### Smart Contracts
+### Programs
 - **SeedPool**: Manages the core liquidity pool with weighted exposure
 - **USDStar**: Implements the hub token (USD*)
 - **Router**: Handles optimal swap routing and fee calculation
 - **LiquidityManager**: Handles LP deposits/withdrawals
 
 ### Integration Points
-- **Pyth Oracle**: Used for price feeds on devnet
 - **SPL Token**: For creating test tokens (FAKE_USDC, FAKE_USDT, FAKE_PYUSD)
 
 ## Development
